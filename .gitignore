@@ -1,0 +1,37 @@
+# ===== Python =====
+__pycache__/
+*.py[codz]
+*$py.class
+build/
+dist/
+*.egg-info/
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+
+# ===== 密钥（真实 key 只放 .env，不提交）=====
+.env
+.env.*
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== 缓存 / lint =====
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== 日志 =====
+logs/
+*.log
+nohup.out
+
+# ===== IDE / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+tempCodeRunnerFile.py
